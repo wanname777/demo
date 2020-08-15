@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
+D:/clion/demo/Book.cpp
+Book.h
+D:/clion/demo/Book.h
+
+D:/clion/demo/Book.h
+
 D:/clion/demo/main.cpp
 iostream
 -
+Book.h
+D:/clion/demo/Book.h
 

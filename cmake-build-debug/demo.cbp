@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/clion/demo/Book.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="D:/clion/demo/Book.h">
+			<Option target="demo"/>
+		</Unit>
 		<Unit filename="D:/clion/demo/main.cpp">
 			<Option target="demo"/>
 		</Unit>

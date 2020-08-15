@@ -142,6 +142,33 @@ demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/build
 .PHONY : demo/fast
 
+Book.obj: Book.cpp.obj
+
+.PHONY : Book.obj
+
+# target to build an object file
+Book.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/Book.cpp.obj
+.PHONY : Book.cpp.obj
+
+Book.i: Book.cpp.i
+
+.PHONY : Book.i
+
+# target to preprocess a source file
+Book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/Book.cpp.i
+.PHONY : Book.cpp.i
+
+Book.s: Book.cpp.s
+
+.PHONY : Book.s
+
+# target to generate assembly for a file
+Book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\demo.dir\build.make CMakeFiles/demo.dir/Book.cpp.s
+.PHONY : Book.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... demo
+	@echo ... Book.obj
+	@echo ... Book.i
+	@echo ... Book.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
