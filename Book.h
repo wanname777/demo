@@ -16,7 +16,7 @@ public:
 
     ~Book();
 
-    double getprice();
+    double getPrice() const;
 
 };
 

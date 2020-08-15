@@ -10,6 +10,6 @@ Book::Book(double p) : price(p) {
 
 Book::~Book() = default;
 
-double Book::getprice() {
+double Book::getPrice() const {
     return price;
 }
